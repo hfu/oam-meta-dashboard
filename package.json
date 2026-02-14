@@ -1,0 +1,18 @@
+{
+  "name": "oam-meta-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/prefetch.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/prefetch.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prefetch": "node scripts/prefetch.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "vite-plugin-singlefile": "^2.0.1"
+  }
+}

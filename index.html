@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OAM Meta Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header-inner">
+          <p class="eyebrow">OpenAerialMap</p>
+          <h1>Western Area Asset Dashboard</h1>
+          <p class="subtitle">
+            Quick view of aerial imagery metadata for Freetown + Waterloo.
+          </p>
+          <p class="subtitle-note">Snapshot loaded at build time.</p>
+          <a
+            class="readme-link"
+            href="https://github.com/hfu/oam-meta-dashboard/blob/main/README.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read the project README
+          </a>
+        </div>
+      </header>
+
+      <section class="controls">
+        <div class="stats">
+          <div>
+            <span class="stat-label">Assets</span>
+            <span id="assetCount" class="stat-value">-</span>
+          </div>
+          <div>
+            <span class="stat-label">Total size</span>
+            <span id="totalSize" class="stat-value">-</span>
+          </div>
+        </div>
+        <div class="sort">
+          <label for="sortSelect">Sort</label>
+          <select id="sortSelect" name="sortSelect">
+            <option value="date-desc">Date (newest)</option>
+            <option value="date-asc">Date (oldest)</option>
+            <option value="size-desc">Size (largest)</option>
+            <option value="size-asc">Size (smallest)</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="status">
+        <div id="loading" class="loading" aria-live="polite">Loading...</div>
+        <div id="error" class="error" role="alert"></div>
+      </section>
+
+      <main>
+        <div id="cardGrid" class="grid"></div>
+      </main>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

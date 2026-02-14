@@ -1,0 +1,2524 @@
+{
+  "meta": {
+    "provided_by": "OpenAerialMap",
+    "license": "CC-BY 4.0",
+    "website": "http://beta.openaerialmap.org",
+    "page": 1,
+    "limit": 100,
+    "found": 28
+  },
+  "results": [
+    {
+      "_id": "68b8af46933f12d326a70dde",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68b8a517bdc4b925e300beca/0/68b8a517bdc4b925e300becb.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68b8a517bdc4b925e300beca/0/68b8a517bdc4b925e300becb_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Aberdeen_Freetown",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.299344,
+        8.457518,
+        -13.260033,
+        8.500431
+      ],
+      "footprint": "POLYGON ((-13.299344 8.457518, -13.260033 8.457518, -13.260033 8.500431, -13.299344 8.500431, -13.299344 8.457518))",
+      "gsd": 0.03834778128757119,
+      "file_size": 1476580553,
+      "acquisition_start": "2025-04-15T07:00:00.000Z",
+      "acquisition_end": "2025-04-15T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.299157,
+                8.500431
+              ],
+              [
+                -13.299344,
+                8.45769
+              ],
+              [
+                -13.260225,
+                8.457518
+              ],
+              [
+                -13.260033,
+                8.500258
+              ],
+              [
+                -13.299157,
+                8.500431
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.299344,
+          8.457518,
+          -13.260033,
+          8.500431
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/68b8a517bdc4b925e300beca/0/68b8a517bdc4b925e300becb.tif",
+        "filename": "68b8a517bdc4b925e300becb.tif",
+        "dimensions": [
+          112338,
+          123276
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.038347781287571055,
+          0.038347781287571055
+        ],
+        "resolution_in_meters": 0.03834778128757119,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68b8a517bdc4b925e300beca/0/68b8a517bdc4b925e300becb.png",
+        "tms": "https://tiles.openaerialmap.org/68b8a517bdc4b925e300beca/0/68b8a517bdc4b925e300becb/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/68b8a517bdc4b925e300beca/0/68b8a517bdc4b925e300becb/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F68b8a517bdc4b925e300beca%2F0%2F68b8a517bdc4b925e300becb.tif",
+        "file_size": 1476580553
+      },
+      "uploaded_at": "2025-09-03T21:12:38.753Z",
+      "__v": 0
+    },
+    {
+      "_id": "69075f1de47603686de24fe8",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/690585b76415e43597ffd7ea/0/690585b76415e43597ffd7eb.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/690585b76415e43597ffd7ea/0/690585b76415e43597ffd7eb_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Freetown Urban with Sensitive Areas Blurred",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        DATUM[\"World Geodetic System 1984\",\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.2991565,
+        8.5004312,
+        -13.1252206,
+        8.3971738
+      ],
+      "footprint": "POLYGON ((-13.2991565 8.5004312, -13.2996055 8.3979653, -13.1252206 8.3971738, -13.1247257 8.49963, -13.2991565 8.5004312))",
+      "gsd": 0.0394,
+      "file_size": 14969258422,
+      "acquisition_start": "2025-10-22T04:00:00.000Z",
+      "acquisition_end": "2025-10-22T05:00:00.000Z",
+      "platform": "uav",
+      "provider": "DroneTM",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.2991565,
+                8.5004312
+              ],
+              [
+                -13.2996055,
+                8.3979653
+              ],
+              [
+                -13.1252206,
+                8.3971738
+              ],
+              [
+                -13.1247257,
+                8.49963
+              ],
+              [
+                -13.2991565,
+                8.5004312
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.299349,
+          8.398019,
+          -13.124724,
+          8.500431
+        ]
+      },
+      "properties": {
+        "license": "CC-BY 4.0",
+        "sensor": "DJI Mini 4 Pro",
+        "url": "s3://oin-hotosm-temp/690585b76415e43597ffd7ea/0/690585b76415e43597ffd7eb.tif",
+        "filename": "690585b76415e43597ffd7eb.tif",
+        "dimensions": [
+          486906,
+          287291
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.039447879950861,
+          0.039447979351589
+        ],
+        "resolution_in_meters": 0.03944787995086,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/690585b76415e43597ffd7ea/0/690585b76415e43597ffd7eb.png",
+        "tms": "https://tiles.openaerialmap.org/690585b76415e43597ffd7ea/0/690585b76415e43597ffd7eb/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/690585b76415e43597ffd7ea/0/690585b76415e43597ffd7eb/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F690585b76415e43597ffd7ea%2F0%2F690585b76415e43597ffd7eb.tif",
+        "file_size": 14969258422
+      },
+      "uploaded_at": "2025-11-01T04:10:09.234Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f9d598631d9ba1ce0972f9",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68f9d2ac631d9ba1ce09712d/0/68f9d2ac631d9ba1ce09712e.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68f9d2ac631d9ba1ce09712d/0/68f9d2ac631d9ba1ce09712e_meta.json",
+      "user": {
+        "_id": "664e603f49dd860001fae125",
+        "name": "Pete Masters"
+      },
+      "title": "Krrobay extract",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.243393,
+        8.485148,
+        -13.237742,
+        8.490657
+      ],
+      "footprint": "POLYGON ((-13.243393 8.485148, -13.237742 8.485148, -13.237742 8.490657, -13.243393 8.490657, -13.243393 8.485148))",
+      "gsd": 0.03944797935158262,
+      "file_size": 41910741,
+      "acquisition_start": "2025-04-16T23:00:00.000Z",
+      "acquisition_end": "2025-04-17T00:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Pete Masters,pete.masters@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.243368,
+                8.490657
+              ],
+              [
+                -13.243393,
+                8.485173
+              ],
+              [
+                -13.237767,
+                8.485148
+              ],
+              [
+                -13.237742,
+                8.490632
+              ],
+              [
+                -13.243368,
+                8.490657
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.243393,
+          8.485148,
+          -13.237742,
+          8.490657
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with Drone Tasking Manager",
+        "url": "s3://oin-hotosm-temp/68f9d2ac631d9ba1ce09712d/0/68f9d2ac631d9ba1ce09712e.tif",
+        "filename": "68f9d2ac631d9ba1ce09712e.tif",
+        "dimensions": [
+          15705,
+          15377
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.039447879950861055,
+          0.03944797935158262
+        ],
+        "resolution_in_meters": 0.03944797935158262,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68f9d2ac631d9ba1ce09712d/0/68f9d2ac631d9ba1ce09712e.png",
+        "tms": "https://tiles.openaerialmap.org/68f9d2ac631d9ba1ce09712d/0/68f9d2ac631d9ba1ce09712e/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/68f9d2ac631d9ba1ce09712d/0/68f9d2ac631d9ba1ce09712e/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F68f9d2ac631d9ba1ce09712d%2F0%2F68f9d2ac631d9ba1ce09712e.tif",
+        "file_size": 41910741
+      },
+      "uploaded_at": "2025-10-23T07:13:28.313Z",
+      "__v": 0
+    },
+    {
+      "_id": "68beefef128fd7aac0cd73ec",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68bed3070dea6f775adb9b06/0/68bed3070dea6f775adb9b07.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68bed3070dea6f775adb9b06/0/68bed3070dea6f775adb9b07_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Freetown_Main_body",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.299445,
+        8.434197,
+        -13.165574,
+        8.500431
+      ],
+      "footprint": "POLYGON ((-13.299445 8.434197, -13.165574 8.434197, -13.165574 8.500431, -13.299445 8.500431, -13.299445 8.434197))",
+      "gsd": 0.0394479793515892,
+      "file_size": 9824177454,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.299157,
+                8.500431
+              ],
+              [
+                -13.299445,
+                8.434799
+              ],
+              [
+                -13.165885,
+                8.434197
+              ],
+              [
+                -13.165574,
+                8.499825
+              ],
+              [
+                -13.299157,
+                8.500431
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.299445,
+          8.434197,
+          -13.165574,
+          8.500431
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/68bed3070dea6f775adb9b06/0/68bed3070dea6f775adb9b07.tif",
+        "filename": "68bed3070dea6f775adb9b07.tif",
+        "dimensions": [
+          372878,
+          184019
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.03944787995086143,
+          0.039447979351589314
+        ],
+        "resolution_in_meters": 0.0394479793515892,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68bed3070dea6f775adb9b06/0/68bed3070dea6f775adb9b07.png",
+        "tms": "https://tiles.openaerialmap.org/68bed3070dea6f775adb9b06/0/68bed3070dea6f775adb9b07/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/68bed3070dea6f775adb9b06/0/68bed3070dea6f775adb9b07/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F68bed3070dea6f775adb9b06%2F0%2F68bed3070dea6f775adb9b07.tif",
+        "file_size": 9824177454
+      },
+      "uploaded_at": "2025-09-08T15:02:07.666Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f9dbd6631d9ba1ce097cec",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68f9d924631d9ba1ce0977b3/0/68f9d924631d9ba1ce0977b4.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68f9d924631d9ba1ce0977b3/0/68f9d924631d9ba1ce0977b4_meta.json",
+      "user": {
+        "_id": "664e603f49dd860001fae125",
+        "name": "Pete Masters"
+      },
+      "title": "Jaimata extract",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.273111,
+        8.488613,
+        -13.267759,
+        8.493259
+      ],
+      "footprint": "POLYGON ((-13.273111 8.488613, -13.267759 8.488613, -13.267759 8.493259, -13.273111 8.493259, -13.273111 8.488613))",
+      "gsd": 0.03976984148489064,
+      "file_size": 43251762,
+      "acquisition_start": "2025-04-16T23:00:00.000Z",
+      "acquisition_end": "2025-04-17T00:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Pete Masters,pete.masters@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.27309,
+                8.493259
+              ],
+              [
+                -13.273111,
+                8.488636
+              ],
+              [
+                -13.267779,
+                8.488613
+              ],
+              [
+                -13.267759,
+                8.493235
+              ],
+              [
+                -13.27309,
+                8.493259
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.273111,
+          8.488613,
+          -13.267759,
+          8.493259
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with Drone Tasking Manager",
+        "url": "s3://oin-hotosm-temp/68f9d924631d9ba1ce0977b3/0/68f9d924631d9ba1ce0977b4.tif",
+        "filename": "68f9d924631d9ba1ce0977b4.tif",
+        "dimensions": [
+          14762,
+          12856
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.03976984148489064,
+          0.039769772868702355
+        ],
+        "resolution_in_meters": 0.03976984148489064,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68f9d924631d9ba1ce0977b3/0/68f9d924631d9ba1ce0977b4.png",
+        "tms": "https://tiles.openaerialmap.org/68f9d924631d9ba1ce0977b3/0/68f9d924631d9ba1ce0977b4/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/68f9d924631d9ba1ce0977b3/0/68f9d924631d9ba1ce0977b4/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F68f9d924631d9ba1ce0977b3%2F0%2F68f9d924631d9ba1ce0977b4.tif",
+        "file_size": 43251762
+      },
+      "uploaded_at": "2025-10-23T07:40:06.066Z",
+      "__v": 0
+    },
+    {
+      "_id": "68b709ea5288a43ff3e919db",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68b701d45288a43ff3e91007/0/68b701d45288a43ff3e91008.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68b701d45288a43ff3e91007/0/68b701d45288a43ff3e91008_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Freetown_New_England_and_Kingtom_COG",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.255579,
+        8.453897,
+        -13.220266,
+        8.494437
+      ],
+      "footprint": "POLYGON ((-13.255579 8.453897, -13.220266 8.453897, -13.220266 8.494437, -13.255579 8.494437, -13.255579 8.453897))",
+      "gsd": 0.03999877827335449,
+      "file_size": 1915860296,
+      "acquisition_start": "2025-04-15T07:00:00.000Z",
+      "acquisition_end": "2025-04-15T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.255397,
+                8.494437
+              ],
+              [
+                -13.255579,
+                8.454055
+              ],
+              [
+                -13.220452,
+                8.453897
+              ],
+              [
+                -13.220266,
+                8.494278
+              ],
+              [
+                -13.255397,
+                8.494437
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.255579,
+          8.453897,
+          -13.220266,
+          8.494437
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/68b701d45288a43ff3e91007/0/68b701d45288a43ff3e91008.tif",
+        "filename": "68b701d45288a43ff3e91008.tif",
+        "dimensions": [
+          96715,
+          111665
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.03999842449783379,
+          0.03999877827335493
+        ],
+        "resolution_in_meters": 0.03999877827335449,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68b701d45288a43ff3e91007/0/68b701d45288a43ff3e91008.png",
+        "tms": "https://tiles.openaerialmap.org/68b701d45288a43ff3e91007/0/68b701d45288a43ff3e91008/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/68b701d45288a43ff3e91007/0/68b701d45288a43ff3e91008/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F68b701d45288a43ff3e91007%2F0%2F68b701d45288a43ff3e91008.tif",
+        "file_size": 1915860296
+      },
+      "uploaded_at": "2025-09-02T15:14:50.971Z",
+      "__v": 0
+    },
+    {
+      "_id": "686c903559d2db6a6e1d823c",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686c8d2059d2db6a6e1d80a2/0/686c8d2059d2db6a6e1d80a3.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686c8d2059d2db6a6e1d80a2/0/686c8d2059d2db6a6e1d80a3_meta.json",
+      "user": {
+        "_id": "5dd5265cb743b200055082cc",
+        "name": "OpenDroneMap"
+      },
+      "title": "Central Business District, East, Freetown",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.234214,
+        8.485448,
+        -13.227198,
+        8.493779
+      ],
+      "footprint": "POLYGON ((-13.234214 8.485448, -13.227198 8.485448, -13.227198 8.493779, -13.234214 8.493779, -13.234214 8.485448))",
+      "gsd": 0.03999911763720531,
+      "file_size": 84829283,
+      "acquisition_start": "2025-04-15T08:49:58.000Z",
+      "acquisition_end": "2025-04-15T09:49:58.000Z",
+      "platform": "uav",
+      "provider": "CODOHSAPA/FEDURP, OSM Sierra Leone, HOT",
+      "contact": "OpenDroneMap,opendronemap.org@gmail.com",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.234176,
+                8.493779
+              ],
+              [
+                -13.234214,
+                8.48548
+              ],
+              [
+                -13.227236,
+                8.485448
+              ],
+              [
+                -13.227198,
+                8.493747
+              ],
+              [
+                -13.234176,
+                8.493779
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.234214,
+          8.485448,
+          -13.227198,
+          8.493779
+        ]
+      },
+      "properties": {
+        "license": "CC-BY 4.0",
+        "sensor": "DJI FC8482",
+        "url": "s3://oin-hotosm-temp/686c8d2059d2db6a6e1d80a2/0/686c8d2059d2db6a6e1d80a3.tif",
+        "filename": "686c8d2059d2db6a6e1d80a3.tif",
+        "dimensions": [
+          19212,
+          22950
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.03999827998348211,
+          0.03999911763720531
+        ],
+        "resolution_in_meters": 0.03999911763720531,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686c8d2059d2db6a6e1d80a2/0/686c8d2059d2db6a6e1d80a3.png",
+        "tms": "https://tiles.openaerialmap.org/686c8d2059d2db6a6e1d80a2/0/686c8d2059d2db6a6e1d80a3/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686c8d2059d2db6a6e1d80a2/0/686c8d2059d2db6a6e1d80a3/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686c8d2059d2db6a6e1d80a2%2F0%2F686c8d2059d2db6a6e1d80a3.tif",
+        "file_size": 84829283
+      },
+      "uploaded_at": "2025-07-08T03:27:49.389Z",
+      "__v": 0
+    },
+    {
+      "_id": "686ddfd95857d50b70e1e9a5",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686ddd075857d50b70e1e7cb/0/686ddd075857d50b70e1e7cc.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686ddd075857d50b70e1e7cb/0/686ddd075857d50b70e1e7cc_meta.json",
+      "user": {
+        "_id": "5dd5265cb743b200055082cc",
+        "name": "OpenDroneMap"
+      },
+      "title": "Sani Abacha Street - 4/15/2025",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.238388,
+        8.485384,
+        -13.227271,
+        8.493828
+      ],
+      "footprint": "POLYGON ((-13.238388 8.485384, -13.227271 8.485384, -13.227271 8.493828, -13.238388 8.493828, -13.238388 8.485384))",
+      "gsd": 0.039999360484999684,
+      "file_size": 117502771,
+      "acquisition_start": "2025-04-15T08:49:58.000Z",
+      "acquisition_end": "2025-04-15T09:49:58.000Z",
+      "platform": "uav",
+      "provider": "Freetown Drone Club",
+      "contact": "OpenDroneMap,opendronemap.org@gmail.com",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.23835,
+                8.493828
+              ],
+              [
+                -13.238388,
+                8.485434
+              ],
+              [
+                -13.22731,
+                8.485384
+              ],
+              [
+                -13.227271,
+                8.493777
+              ],
+              [
+                -13.23835,
+                8.493828
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.238388,
+          8.485384,
+          -13.227271,
+          8.493828
+        ]
+      },
+      "properties": {
+        "license": "CC-BY 4.0",
+        "sensor": "DJI FC8482",
+        "url": "s3://oin-hotosm-temp/686ddd075857d50b70e1e7cb/0/686ddd075857d50b70e1e7cc.tif",
+        "filename": "686ddd075857d50b70e1e7cc.tif",
+        "dimensions": [
+          30499,
+          23210
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.039999360484999684,
+          0.03999906841338279
+        ],
+        "resolution_in_meters": 0.039999360484999684,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686ddd075857d50b70e1e7cb/0/686ddd075857d50b70e1e7cc.png",
+        "tms": "https://tiles.openaerialmap.org/686ddd075857d50b70e1e7cb/0/686ddd075857d50b70e1e7cc/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686ddd075857d50b70e1e7cb/0/686ddd075857d50b70e1e7cc/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686ddd075857d50b70e1e7cb%2F0%2F686ddd075857d50b70e1e7cc.tif",
+        "file_size": 117502771
+      },
+      "uploaded_at": "2025-07-09T03:19:53.220Z",
+      "__v": 0
+    },
+    {
+      "_id": "686d08d160b53bd76c9c845c",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686d060a60b53bd76c9c80e0/0/686d060a60b53bd76c9c80e1.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686d060a60b53bd76c9c80e0/0/686d060a60b53bd76c9c80e1_meta.json",
+      "user": {
+        "_id": "5dd5265cb743b200055082cc",
+        "name": "OpenDroneMap"
+      },
+      "title": "Wallace Johnson Street - 4/19/2025",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.238328,
+        8.485433,
+        -13.231916,
+        8.493461
+      ],
+      "footprint": "POLYGON ((-13.238328 8.485433, -13.231916 8.485433, -13.231916 8.493461, -13.238328 8.493461, -13.238328 8.485433))",
+      "gsd": 0.039999911519218785,
+      "file_size": 61316625,
+      "acquisition_start": "2025-04-19T05:53:22.000Z",
+      "acquisition_end": "2025-04-19T06:53:22.000Z",
+      "platform": "uav",
+      "provider": "Freetown Drone Club",
+      "contact": "OpenDroneMap,opendronemap.org@gmail.com",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.238291,
+                8.493461
+              ],
+              [
+                -13.238328,
+                8.485461
+              ],
+              [
+                -13.231953,
+                8.485433
+              ],
+              [
+                -13.231916,
+                8.493433
+              ],
+              [
+                -13.238291,
+                8.493461
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.238328,
+          8.485433,
+          -13.231916,
+          8.493461
+        ]
+      },
+      "properties": {
+        "license": "CC-BY 4.0",
+        "sensor": "DJI FC8482",
+        "url": "s3://oin-hotosm-temp/686d060a60b53bd76c9c80e0/0/686d060a60b53bd76c9c80e1.tif",
+        "filename": "686d060a60b53bd76c9c80e1.tif",
+        "dimensions": [
+          17549,
+          22122
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.039999911519218785,
+          0.03999835132928049
+        ],
+        "resolution_in_meters": 0.039999911519218785,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686d060a60b53bd76c9c80e0/0/686d060a60b53bd76c9c80e1.png",
+        "tms": "https://tiles.openaerialmap.org/686d060a60b53bd76c9c80e0/0/686d060a60b53bd76c9c80e1/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686d060a60b53bd76c9c80e0/0/686d060a60b53bd76c9c80e1/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686d060a60b53bd76c9c80e0%2F0%2F686d060a60b53bd76c9c80e1.tif",
+        "file_size": 61316625
+      },
+      "uploaded_at": "2025-07-08T12:02:25.421Z",
+      "__v": 0
+    },
+    {
+      "_id": "688666a220cfbaea039c043b",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688659c320cfbaea039bfcda/0/688659c320cfbaea039bfcdb.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688659c320cfbaea039bfcda/0/688659c320cfbaea039bfcdb_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Allentown_DroneTM",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.18203,
+        8.397512,
+        -13.145159,
+        8.443559
+      ],
+      "footprint": "POLYGON ((-13.18203 8.397512, -13.145159 8.397512, -13.145159 8.443559, -13.18203 8.443559, -13.18203 8.397512))",
+      "gsd": 0.046931613263966256,
+      "file_size": 2009272956,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.181816,
+                8.443559
+              ],
+              [
+                -13.18203,
+                8.397683
+              ],
+              [
+                -13.145377,
+                8.397512
+              ],
+              [
+                -13.145159,
+                8.443387
+              ],
+              [
+                -13.181816,
+                8.443559
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.18203,
+          8.397512,
+          -13.145159,
+          8.443559
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/688659c320cfbaea039bfcda/0/688659c320cfbaea039bfcdb.tif",
+        "filename": "688659c320cfbaea039bfcdb.tif",
+        "dimensions": [
+          86022,
+          108126
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04693161326396572,
+          0.046929984359004084
+        ],
+        "resolution_in_meters": 0.046931613263966256,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688659c320cfbaea039bfcda/0/688659c320cfbaea039bfcdb.png",
+        "tms": "https://tiles.openaerialmap.org/688659c320cfbaea039bfcda/0/688659c320cfbaea039bfcdb/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/688659c320cfbaea039bfcda/0/688659c320cfbaea039bfcdb/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F688659c320cfbaea039bfcda%2F0%2F688659c320cfbaea039bfcdb.tif",
+        "file_size": 2009272956
+      },
+      "uploaded_at": "2025-07-27T17:49:22.977Z",
+      "__v": 0
+    },
+    {
+      "_id": "688ca0465c13f65e3cc03333",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688c9e695c13f65e3cc02e38/0/688c9e695c13f65e3cc02e39.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688c9e695c13f65e3cc02e38/0/688c9e695c13f65e3cc02e39_meta.json",
+      "user": {
+        "_id": "5ec139e5aff5010005865bed",
+        "name": "Tommy Charles"
+      },
+      "title": "Kroo Bay KYC - Subset",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.242418,
+        8.485344,
+        -13.239036,
+        8.490263
+      ],
+      "footprint": "POLYGON ((-13.242418 8.485344, -13.239036 8.485344, -13.239036 8.490263, -13.242418 8.490263, -13.242418 8.485344))",
+      "gsd": 0.04988330812049033,
+      "file_size": 14573987,
+      "acquisition_start": "2025-08-01T00:00:00.000Z",
+      "acquisition_end": "2025-08-01T10:47:43.906Z",
+      "platform": "uav",
+      "provider": "Tommy Charles",
+      "contact": "Tommy Charles,godpherytommy@gmail.com",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.242396,
+                8.490263
+              ],
+              [
+                -13.242418,
+                8.485359
+              ],
+              [
+                -13.239059,
+                8.485344
+              ],
+              [
+                -13.239036,
+                8.490247
+              ],
+              [
+                -13.242396,
+                8.490263
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.242418,
+          8.485344,
+          -13.239036,
+          8.490263
+        ]
+      },
+      "properties": {
+        "license": "CC-BY 4.0",
+        "sensor": "DJI Mini 2",
+        "url": "s3://oin-hotosm-temp/688c9e695c13f65e3cc02e38/0/688c9e695c13f65e3cc02e39.tif",
+        "filename": "688c9e695c13f65e3cc02e39.tif",
+        "dimensions": [
+          7416,
+          10873
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04988330812049033,
+          0.04988330812048911
+        ],
+        "resolution_in_meters": 0.04988330812049033,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688c9e695c13f65e3cc02e38/0/688c9e695c13f65e3cc02e39.png",
+        "tms": "https://tiles.openaerialmap.org/688c9e695c13f65e3cc02e38/0/688c9e695c13f65e3cc02e39/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/688c9e695c13f65e3cc02e38/0/688c9e695c13f65e3cc02e39/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F688c9e695c13f65e3cc02e38%2F0%2F688c9e695c13f65e3cc02e39.tif",
+        "file_size": 14573987
+      },
+      "uploaded_at": "2025-08-01T11:08:54.753Z",
+      "__v": 0
+    },
+    {
+      "_id": "688ca9be5c13f65e3cc03bcc",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688ca73d5c13f65e3cc036a2/0/688ca73d5c13f65e3cc036a3.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688ca73d5c13f65e3cc036a2/0/688ca73d5c13f65e3cc036a3_meta.json",
+      "user": {
+        "_id": "5ec139e5aff5010005865bed",
+        "name": "Tommy Charles"
+      },
+      "title": "Kroo Bay KYC - Full",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.246633,
+        8.480783,
+        -13.235113,
+        8.491096
+      ],
+      "footprint": "POLYGON ((-13.246633 8.480783, -13.235113 8.480783, -13.235113 8.491096, -13.246633 8.491096, -13.246633 8.480783))",
+      "gsd": 0.04988330812049175,
+      "file_size": 143847308,
+      "acquisition_start": "2025-08-01T00:00:00.000Z",
+      "acquisition_end": "2025-08-01T11:00:59.290Z",
+      "platform": "uav",
+      "provider": "Tommy Charles",
+      "contact": "Tommy Charles,godpherytommy@gmail.com",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.246586,
+                8.491096
+              ],
+              [
+                -13.246633,
+                8.480834
+              ],
+              [
+                -13.235159,
+                8.480783
+              ],
+              [
+                -13.235113,
+                8.491045
+              ],
+              [
+                -13.246586,
+                8.491096
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.246633,
+          8.480783,
+          -13.235113,
+          8.491096
+        ]
+      },
+      "properties": {
+        "license": "CC-BY 4.0",
+        "sensor": "DJI Mini 2",
+        "url": "s3://oin-hotosm-temp/688ca73d5c13f65e3cc036a2/0/688ca73d5c13f65e3cc036a3.tif",
+        "filename": "688ca73d5c13f65e3cc036a3.tif",
+        "dimensions": [
+          25327,
+          22754
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04988330812049241,
+          0.04988330812049241
+        ],
+        "resolution_in_meters": 0.04988330812049175,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/688ca73d5c13f65e3cc036a2/0/688ca73d5c13f65e3cc036a3.png",
+        "tms": "https://tiles.openaerialmap.org/688ca73d5c13f65e3cc036a2/0/688ca73d5c13f65e3cc036a3/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/688ca73d5c13f65e3cc036a2/0/688ca73d5c13f65e3cc036a3/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F688ca73d5c13f65e3cc036a2%2F0%2F688ca73d5c13f65e3cc036a3.tif",
+        "file_size": 143847308
+      },
+      "uploaded_at": "2025-08-01T11:49:18.830Z",
+      "__v": 0
+    },
+    {
+      "_id": "66e7eb68cd0baa0001b621b8",
+      "acquisition_end": "2024-09-09T11:14:21.217Z",
+      "acquisition_start": "2024-09-09T00:00:00.000Z",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "platform": "uav",
+      "provider": "HOT",
+      "properties": {
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm.s3.us-east-1.amazonaws.com%2F66e7e90fcd0baa0001b621b6%2F0%2F66e7e90fcd0baa0001b621b7.tif",
+        "wmts": "https://tiles.openaerialmap.org/66e7e90fcd0baa0001b621b6/0/66e7e90fcd0baa0001b621b7/wmts",
+        "tms": "https://tiles.openaerialmap.org/66e7e90fcd0baa0001b621b6/0/66e7e90fcd0baa0001b621b7/{z}/{x}/{y}",
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66e7e90fcd0baa0001b621b6/0/66e7e90fcd0baa0001b621b7.png",
+        "resolution_in_meters": 0.0499756041367379,
+        "resolution": [
+          0.04997560413673579,
+          0.04997560413673579
+        ],
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "crs": "EPSG:32628",
+        "dtype": "uint8",
+        "bands": 3,
+        "dimensions": [
+          12160,
+          14703
+        ],
+        "filename": "66e7e90fcd0baa0001b621b7.tif",
+        "url": "s3://oin-hotosm/66e7e90fcd0baa0001b621b6/0/66e7e90fcd0baa0001b621b7.tif",
+        "sensor": "DJI Mini 4 Pro with Drone Tasking Manager",
+        "license": "CC-BY 4.0"
+      },
+      "title": "Jamata Cockle Bay Freetown",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66e7e90fcd0baa0001b621b6/0/66e7e90fcd0baa0001b621b7.tif",
+      "geojson": {
+        "bbox": [
+          -13.274507,
+          8.486506,
+          -13.268958,
+          8.493174
+        ],
+        "coordinates": [
+          [
+            [
+              [
+                -13.274477,
+                8.493174
+              ],
+              [
+                -13.274507,
+                8.48653
+              ],
+              [
+                -13.268988,
+                8.486506
+              ],
+              [
+                -13.268958,
+                8.493149
+              ],
+              [
+                -13.274477,
+                8.493174
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "footprint": "POLYGON ((-13.274507 8.486506, -13.268958 8.486506, -13.268958 8.493174, -13.274507 8.493174, -13.274507 8.486506))",
+      "gsd": 0.0499756041367379,
+      "file_size": 45845522,
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Engineering survey, topographic mapping.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66e7e90fcd0baa0001b621b6/0/66e7e90fcd0baa0001b621b7_meta.json",
+      "uploaded_at": "2024-09-16T08:25:12.065Z",
+      "bbox": [
+        -13.274507,
+        8.486506,
+        -13.268958,
+        8.493174
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "689350c630644ba65a80488d",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68934e1b30644ba65a804354/0/68934e1b30644ba65a804355.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68934e1b30644ba65a804354/0/68934e1b30644ba65a804355_meta.json",
+      "user": {
+        "_id": "5ec139e5aff5010005865bed",
+        "name": "Tommy Charles"
+      },
+      "title": "Kroo Bay - Training",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.245233,
+        8.483029,
+        -13.238458,
+        8.490198
+      ],
+      "footprint": "POLYGON ((-13.245233 8.483029, -13.238458 8.483029, -13.238458 8.490198, -13.245233 8.490198, -13.245233 8.483029))",
+      "gsd": 0.04999620253164391,
+      "file_size": 54779662,
+      "acquisition_start": "2025-08-01T00:00:00.000Z",
+      "acquisition_end": "2025-08-01T11:38:38.854Z",
+      "platform": "uav",
+      "provider": "Tommy Charles",
+      "contact": "Tommy Charles,godpherytommy@gmail.com",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.245201,
+                8.490198
+              ],
+              [
+                -13.245233,
+                8.483059
+              ],
+              [
+                -13.23849,
+                8.483029
+              ],
+              [
+                -13.238458,
+                8.490167
+              ],
+              [
+                -13.245201,
+                8.490198
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.245233,
+          8.483029,
+          -13.238458,
+          8.490198
+        ]
+      },
+      "properties": {
+        "license": "CC-BY 4.0",
+        "sensor": "DJI Mini 2",
+        "url": "s3://oin-hotosm-temp/68934e1b30644ba65a804354/0/68934e1b30644ba65a804355.tif",
+        "filename": "68934e1b30644ba65a804355.tif",
+        "dimensions": [
+          14852,
+          15792
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04999620253164391,
+          0.04999612462005954
+        ],
+        "resolution_in_meters": 0.04999620253164391,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/68934e1b30644ba65a804354/0/68934e1b30644ba65a804355.png",
+        "tms": "https://tiles.openaerialmap.org/68934e1b30644ba65a804354/0/68934e1b30644ba65a804355/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/68934e1b30644ba65a804354/0/68934e1b30644ba65a804355/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F68934e1b30644ba65a804354%2F0%2F68934e1b30644ba65a804355.tif",
+        "file_size": 54779662
+      },
+      "uploaded_at": "2025-08-06T12:55:34.303Z",
+      "__v": 0
+    },
+    {
+      "_id": "66decde7cd0baa0001b61fff",
+      "acquisition_end": "2024-09-08T14:00:00.000Z",
+      "acquisition_start": "2024-09-08T13:00:00.000Z",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "platform": "uav",
+      "provider": "HOT",
+      "properties": {
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm.s3.us-east-1.amazonaws.com%2F66decb9ecd0baa0001b61ffd%2F0%2F66decb9ecd0baa0001b61ffe.tif",
+        "wmts": "https://tiles.openaerialmap.org/66decb9ecd0baa0001b61ffd/0/66decb9ecd0baa0001b61ffe/wmts",
+        "tms": "https://tiles.openaerialmap.org/66decb9ecd0baa0001b61ffd/0/66decb9ecd0baa0001b61ffe/{z}/{x}/{y}",
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66decb9ecd0baa0001b61ffd/0/66decb9ecd0baa0001b61ffe.png",
+        "resolution_in_meters": 0.049996203371815276,
+        "resolution": [
+          0.049996203371815276,
+          0.04999612088764719
+        ],
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "crs": "EPSG:32628",
+        "dtype": "uint8",
+        "bands": 3,
+        "dimensions": [
+          13090,
+          12817
+        ],
+        "filename": "66decb9ecd0baa0001b61ffe.tif",
+        "url": "s3://oin-hotosm/66decb9ecd0baa0001b61ffd/0/66decb9ecd0baa0001b61ffe.tif",
+        "sensor": "DJI Mini 4 Pro with Drone Tasking Manager",
+        "license": "CC-BY 4.0"
+      },
+      "title": "Kroo Bay, Freetown KYC missed area",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66decb9ecd0baa0001b61ffd/0/66decb9ecd0baa0001b61ffe.tif",
+      "geojson": {
+        "bbox": [
+          -13.245233,
+          8.483032,
+          -13.239264,
+          8.488853
+        ],
+        "coordinates": [
+          [
+            [
+              [
+                -13.245207,
+                8.488853
+              ],
+              [
+                -13.245233,
+                8.483059
+              ],
+              [
+                -13.23929,
+                8.483032
+              ],
+              [
+                -13.239264,
+                8.488826
+              ],
+              [
+                -13.245207,
+                8.488853
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "footprint": "POLYGON ((-13.245233 8.483032, -13.239264 8.483032, -13.239264 8.488853, -13.245233 8.488853, -13.245233 8.483032))",
+      "gsd": 0.049996203371815276,
+      "file_size": 48447723,
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Engineering survey, topographic mapping.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66decb9ecd0baa0001b61ffd/0/66decb9ecd0baa0001b61ffe_meta.json",
+      "uploaded_at": "2024-09-09T10:28:55.718Z",
+      "bbox": [
+        -13.245233,
+        8.483032,
+        -13.239264,
+        8.488853
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "662aecb36049ef00013b8087",
+      "acquisition_end": "2024-04-06T17:00:00.000Z",
+      "acquisition_start": "2024-04-06T16:00:00.000Z",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "platform": "uav",
+      "provider": "OSM Sierra Leone",
+      "properties": {
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm.s3.us-east-1.amazonaws.com%2F662aeab56049ef00013b8083%2F0%2F662aeab56049ef00013b8084.tif",
+        "wmts": "https://tiles.openaerialmap.org/662aeab56049ef00013b8083/0/662aeab56049ef00013b8084/wmts",
+        "tms": "https://tiles.openaerialmap.org/662aeab56049ef00013b8083/0/662aeab56049ef00013b8084/{z}/{x}/{y}",
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/662aeab56049ef00013b8083/0/662aeab56049ef00013b8084.png",
+        "resolution_in_meters": 0.04999778334627183,
+        "resolution": [
+          0.04999702034125941,
+          0.04999778334627183
+        ],
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "crs": "EPSG:32628",
+        "dtype": "uint8",
+        "bands": 3,
+        "dimensions": [
+          13359,
+          8920
+        ],
+        "filename": "662aeab56049ef00013b8084.tif",
+        "url": "s3://oin-hotosm/662aeab56049ef00013b8083/0/662aeab56049ef00013b8084.tif",
+        "sensor": "Mavic_2_zoom",
+        "license": "CC-BY 4.0"
+      },
+      "title": "Kolleh_Town",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/662aeab56049ef00013b8083/0/662aeab56049ef00013b8084.tif",
+      "geojson": {
+        "bbox": [
+          -13.254454,
+          8.484386,
+          -13.24837,
+          8.488446
+        ],
+        "coordinates": [
+          [
+            [
+              [
+                -13.254435,
+                8.488446
+              ],
+              [
+                -13.254454,
+                8.484414
+              ],
+              [
+                -13.248388,
+                8.484386
+              ],
+              [
+                -13.24837,
+                8.488418
+              ],
+              [
+                -13.254435,
+                8.488446
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "footprint": "POLYGON ((-13.254454 8.484386, -13.24837 8.484386, -13.24837 8.488446, -13.254454 8.488446, -13.254454 8.484386))",
+      "gsd": 0.04999778334627183,
+      "file_size": 23077735,
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Engineering survey, topographic mapping.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/662aeab56049ef00013b8083/0/662aeab56049ef00013b8084_meta.json",
+      "uploaded_at": "2024-04-25T23:52:19.839Z",
+      "bbox": [
+        -13.254454,
+        8.484386,
+        -13.24837,
+        8.488446
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "686f12ef0af31ae7caac8152",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686f102c0af31ae7caac80dc/0/686f102c0af31ae7caac80dd.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686f102c0af31ae7caac80dc/0/686f102c0af31ae7caac80dd_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Kroo_Bay_Disability_Analysis",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.246629,
+        8.480693,
+        -13.235149,
+        8.491103
+      ],
+      "footprint": "POLYGON ((-13.246629 8.480693, -13.235149 8.480693, -13.235149 8.491103, -13.246629 8.491103, -13.246629 8.480693))",
+      "gsd": 0.049998268748924025,
+      "file_size": 144065485,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.246582,
+                8.491103
+              ],
+              [
+                -13.246629,
+                8.480744
+              ],
+              [
+                -13.235196,
+                8.480693
+              ],
+              [
+                -13.235149,
+                8.491052
+              ],
+              [
+                -13.246582,
+                8.491103
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.246629,
+          8.480693,
+          -13.235149,
+          8.491103
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/686f102c0af31ae7caac80dc/0/686f102c0af31ae7caac80dd.tif",
+        "filename": "686f102c0af31ae7caac80dd.tif",
+        "dimensions": [
+          25180,
+          22916
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.049998218252089076,
+          0.049998268748924025
+        ],
+        "resolution_in_meters": 0.049998268748924025,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686f102c0af31ae7caac80dc/0/686f102c0af31ae7caac80dd.png",
+        "tms": "https://tiles.openaerialmap.org/686f102c0af31ae7caac80dc/0/686f102c0af31ae7caac80dd/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686f102c0af31ae7caac80dc/0/686f102c0af31ae7caac80dd/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686f102c0af31ae7caac80dc%2F0%2F686f102c0af31ae7caac80dd.tif",
+        "file_size": 144065485
+      },
+      "uploaded_at": "2025-07-10T01:10:07.350Z",
+      "__v": 0
+    },
+    {
+      "_id": "66dedad1cd0baa0001b62002",
+      "acquisition_end": "2024-09-08T18:00:00.000Z",
+      "acquisition_start": "2024-09-08T17:00:00.000Z",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "platform": "uav",
+      "provider": "HOT",
+      "properties": {
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm.s3.us-east-1.amazonaws.com%2F66ded88ccd0baa0001b62000%2F0%2F66ded88ccd0baa0001b62001.tif",
+        "wmts": "https://tiles.openaerialmap.org/66ded88ccd0baa0001b62000/0/66ded88ccd0baa0001b62001/wmts",
+        "tms": "https://tiles.openaerialmap.org/66ded88ccd0baa0001b62000/0/66ded88ccd0baa0001b62001/{z}/{x}/{y}",
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66ded88ccd0baa0001b62000/0/66ded88ccd0baa0001b62001.png",
+        "resolution_in_meters": 0.049998286258378745,
+        "resolution": [
+          0.049998286258378745,
+          0.049998249730677444
+        ],
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "crs": "EPSG:32628",
+        "dtype": "uint8",
+        "bands": 3,
+        "dimensions": [
+          12179,
+          14687
+        ],
+        "filename": "66ded88ccd0baa0001b62001.tif",
+        "url": "s3://oin-hotosm/66ded88ccd0baa0001b62000/0/66ded88ccd0baa0001b62001.tif",
+        "sensor": "DJI Mini 4 Pro with Drone Tasking Manager",
+        "license": "CC-BY 4.0"
+      },
+      "title": "Cockle Bay to Aberdeen Bridge",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66ded88ccd0baa0001b62000/0/66ded88ccd0baa0001b62001.tif",
+      "geojson": {
+        "bbox": [
+          -13.27448,
+          8.486498,
+          -13.268921,
+          8.493162
+        ],
+        "coordinates": [
+          [
+            [
+              [
+                -13.274451,
+                8.493162
+              ],
+              [
+                -13.27448,
+                8.486523
+              ],
+              [
+                -13.268951,
+                8.486498
+              ],
+              [
+                -13.268921,
+                8.493137
+              ],
+              [
+                -13.274451,
+                8.493162
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "footprint": "POLYGON ((-13.27448 8.486498, -13.268921 8.486498, -13.268921 8.493162, -13.27448 8.493162, -13.27448 8.486498))",
+      "gsd": 0.049998286258378745,
+      "file_size": 45859306,
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Engineering survey, topographic mapping.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/66ded88ccd0baa0001b62000/0/66ded88ccd0baa0001b62001_meta.json",
+      "uploaded_at": "2024-09-09T11:24:01.489Z",
+      "bbox": [
+        -13.27448,
+        8.486498,
+        -13.268921,
+        8.493162
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "686dbc1a5857d50b70e1cb0c",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686db9915857d50b70e1c86d/0/686db9915857d50b70e1c86e.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686db9915857d50b70e1c86d/0/686db9915857d50b70e1c86e_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Coconut_Farm_Disability_Analysis_basemap",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.220656,
+        8.471957,
+        -13.20901,
+        8.482893
+      ],
+      "footprint": "POLYGON ((-13.220656 8.471957, -13.20901 8.471957, -13.20901 8.482893, -13.220656 8.482893, -13.220656 8.471957))",
+      "gsd": 0.04999836775994427,
+      "file_size": 145989792,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.220606,
+                8.482893
+              ],
+              [
+                -13.220656,
+                8.47201
+              ],
+              [
+                -13.20906,
+                8.471957
+              ],
+              [
+                -13.20901,
+                8.48284
+              ],
+              [
+                -13.220606,
+                8.482893
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.220656,
+          8.471957,
+          -13.20901,
+          8.482893
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/686db9915857d50b70e1c86d/0/686db9915857d50b70e1c86e.tif",
+        "filename": "686db9915857d50b70e1c86e.tif",
+        "dimensions": [
+          25540,
+          24076
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04999836775994427,
+          0.049998258650377735
+        ],
+        "resolution_in_meters": 0.04999836775994427,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686db9915857d50b70e1c86d/0/686db9915857d50b70e1c86e.png",
+        "tms": "https://tiles.openaerialmap.org/686db9915857d50b70e1c86d/0/686db9915857d50b70e1c86e/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686db9915857d50b70e1c86d/0/686db9915857d50b70e1c86e/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686db9915857d50b70e1c86d%2F0%2F686db9915857d50b70e1c86e.tif",
+        "file_size": 145989792
+      },
+      "uploaded_at": "2025-07-09T00:47:22.575Z",
+      "__v": 0
+    },
+    {
+      "_id": "686eae590af31ae7caac0414",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686ea9010af31ae7caabfa7d/0/686ea9010af31ae7caabfa7e.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686ea9010af31ae7caabfa7d/0/686ea9010af31ae7caabfa7e_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Moyiba_Disability_Analysis",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.210269,
+        8.464055,
+        -13.197785,
+        8.479473
+      ],
+      "footprint": "POLYGON ((-13.210269 8.464055, -13.197785 8.464055, -13.197785 8.479473, -13.210269 8.479473, -13.210269 8.464055))",
+      "gsd": 0.04999842216204357,
+      "file_size": 200390031,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.210198,
+                8.479473
+              ],
+              [
+                -13.210269,
+                8.464112
+              ],
+              [
+                -13.197856,
+                8.464055
+              ],
+              [
+                -13.197785,
+                8.479416
+              ],
+              [
+                -13.210198,
+                8.479473
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.210269,
+          8.464055,
+          -13.197785,
+          8.479473
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/686ea9010af31ae7caabfa7d/0/686ea9010af31ae7caabfa7e.tif",
+        "filename": "686ea9010af31ae7caabfa7e.tif",
+        "dimensions": [
+          27339,
+          33982
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04999823752865157,
+          0.04999842216204357
+        ],
+        "resolution_in_meters": 0.04999842216204357,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686ea9010af31ae7caabfa7d/0/686ea9010af31ae7caabfa7e.png",
+        "tms": "https://tiles.openaerialmap.org/686ea9010af31ae7caabfa7d/0/686ea9010af31ae7caabfa7e/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686ea9010af31ae7caabfa7d/0/686ea9010af31ae7caabfa7e/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686ea9010af31ae7caabfa7d%2F0%2F686ea9010af31ae7caabfa7e.tif",
+        "file_size": 200390031
+      },
+      "uploaded_at": "2025-07-09T18:00:57.614Z",
+      "__v": 0
+    },
+    {
+      "_id": "686dcc465857d50b70e1d873",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686dc9a15857d50b70e1d649/0/686dc9a15857d50b70e1d64a.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686dc9a15857d50b70e1d649/0/686dc9a15857d50b70e1d64a_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Susan_Bay_Disability_Analysis",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.234218,
+        8.485295,
+        -13.222805,
+        8.493788
+      ],
+      "footprint": "POLYGON ((-13.234218 8.485295, -13.222805 8.485295, -13.222805 8.493788, -13.234218 8.493788, -13.234218 8.485295))",
+      "gsd": 0.049998557877172896,
+      "file_size": 101874200,
+      "acquisition_start": "2025-05-16T07:00:00.000Z",
+      "acquisition_end": "2025-05-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.234179,
+                8.493788
+              ],
+              [
+                -13.234218,
+                8.485347
+              ],
+              [
+                -13.222844,
+                8.485295
+              ],
+              [
+                -13.222805,
+                8.493736
+              ],
+              [
+                -13.234179,
+                8.493788
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.234218,
+          8.485295,
+          -13.222805,
+          8.493788
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/686dc9a15857d50b70e1d649/0/686dc9a15857d50b70e1d64a.tif",
+        "filename": "686dc9a15857d50b70e1d64a.tif",
+        "dimensions": [
+          25050,
+          18672
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.049998557877172896,
+          0.049998378267286474
+        ],
+        "resolution_in_meters": 0.049998557877172896,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686dc9a15857d50b70e1d649/0/686dc9a15857d50b70e1d64a.png",
+        "tms": "https://tiles.openaerialmap.org/686dc9a15857d50b70e1d649/0/686dc9a15857d50b70e1d64a/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686dc9a15857d50b70e1d649/0/686dc9a15857d50b70e1d64a/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686dc9a15857d50b70e1d649%2F0%2F686dc9a15857d50b70e1d64a.tif",
+        "file_size": 101874200
+      },
+      "uploaded_at": "2025-07-09T01:56:22.388Z",
+      "__v": 0
+    },
+    {
+      "_id": "686eb4010af31ae7caac165f",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686eb1860af31ae7caac0f1d/0/686eb1860af31ae7caac0f1e.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686eb1860af31ae7caac0f1d/0/686eb1860af31ae7caac0f1e_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Kolleh_Town_Disability_Analysis",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.255504,
+        8.480381,
+        -13.244025,
+        8.490862
+      ],
+      "footprint": "POLYGON ((-13.255504 8.480381, -13.244025 8.480381, -13.244025 8.490862, -13.255504 8.490862, -13.255504 8.480381))",
+      "gsd": 0.04999920594286452,
+      "file_size": 115722859,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.255457,
+                8.490862
+              ],
+              [
+                -13.255504,
+                8.480432
+              ],
+              [
+                -13.244073,
+                8.480381
+              ],
+              [
+                -13.244025,
+                8.49081
+              ],
+              [
+                -13.255457,
+                8.490862
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.255504,
+          8.480381,
+          -13.244025,
+          8.490862
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/686eb1860af31ae7caac0f1d/0/686eb1860af31ae7caac0f1e.tif",
+        "filename": "686eb1860af31ae7caac0f1e.tif",
+        "dimensions": [
+          25176,
+          23071
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04999920594286452,
+          0.04999892125920824
+        ],
+        "resolution_in_meters": 0.04999920594286452,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686eb1860af31ae7caac0f1d/0/686eb1860af31ae7caac0f1e.png",
+        "tms": "https://tiles.openaerialmap.org/686eb1860af31ae7caac0f1d/0/686eb1860af31ae7caac0f1e/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686eb1860af31ae7caac0f1d/0/686eb1860af31ae7caac0f1e/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686eb1860af31ae7caac0f1d%2F0%2F686eb1860af31ae7caac0f1e.tif",
+        "file_size": 115722859
+      },
+      "uploaded_at": "2025-07-09T18:25:05.087Z",
+      "__v": 0
+    },
+    {
+      "_id": "686dc4ea5857d50b70e1d02e",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686dc1b45857d50b70e1cfa9/0/686dc1b45857d50b70e1cfaa.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686dc1b45857d50b70e1cfa9/0/686dc1b45857d50b70e1cfaa_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Portee_Disability_Analysis",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.180378,
+        8.458798,
+        -13.167841,
+        8.473943
+      ],
+      "footprint": "POLYGON ((-13.180378 8.458798, -13.167841 8.458798, -13.167841 8.473943, -13.180378 8.473943, -13.180378 8.458798))",
+      "gsd": 0.04999924845564872,
+      "file_size": 181504024,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.180307,
+                8.473943
+              ],
+              [
+                -13.180378,
+                8.458856
+              ],
+              [
+                -13.167913,
+                8.458798
+              ],
+              [
+                -13.167841,
+                8.473884
+              ],
+              [
+                -13.180307,
+                8.473943
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.180378,
+          8.458798,
+          -13.167841,
+          8.473943
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/686dc1b45857d50b70e1cfa9/0/686dc1b45857d50b70e1cfaa.tif",
+        "filename": "686dc1b45857d50b70e1cfaa.tif",
+        "dimensions": [
+          27457,
+          33376
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04999896189896958,
+          0.04999924845564872
+        ],
+        "resolution_in_meters": 0.04999924845564872,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686dc1b45857d50b70e1cfa9/0/686dc1b45857d50b70e1cfaa.png",
+        "tms": "https://tiles.openaerialmap.org/686dc1b45857d50b70e1cfa9/0/686dc1b45857d50b70e1cfaa/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686dc1b45857d50b70e1cfa9/0/686dc1b45857d50b70e1cfaa/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686dc1b45857d50b70e1cfa9%2F0%2F686dc1b45857d50b70e1cfaa.tif",
+        "file_size": 181504024
+      },
+      "uploaded_at": "2025-07-09T01:24:58.322Z",
+      "__v": 0
+    },
+    {
+      "_id": "662aee486049ef00013b8088",
+      "acquisition_end": "2024-04-07T08:00:00.000Z",
+      "acquisition_start": "2024-04-07T07:00:00.000Z",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "platform": "aircraft",
+      "provider": "OSM Sierra Leone",
+      "properties": {
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm.s3.us-east-1.amazonaws.com%2F662aec6d6049ef00013b8085%2F0%2F662aec6d6049ef00013b8086.tif",
+        "wmts": "https://tiles.openaerialmap.org/662aec6d6049ef00013b8085/0/662aec6d6049ef00013b8086/wmts",
+        "tms": "https://tiles.openaerialmap.org/662aec6d6049ef00013b8085/0/662aec6d6049ef00013b8086/{z}/{x}/{y}",
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/662aec6d6049ef00013b8085/0/662aec6d6049ef00013b8086.png",
+        "resolution_in_meters": 0.04999938743494882,
+        "resolution": [
+          0.04999938743494882,
+          0.0499974668064269
+        ],
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "crs": "EPSG:32628",
+        "dtype": "uint8",
+        "bands": 3,
+        "dimensions": [
+          12968,
+          18232
+        ],
+        "filename": "662aec6d6049ef00013b8086.tif",
+        "url": "s3://oin-hotosm/662aec6d6049ef00013b8085/0/662aec6d6049ef00013b8086.tif",
+        "sensor": "Mavic 2 Zoom",
+        "license": "CC-BY 4.0"
+      },
+      "title": "Cockle_Bay",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/662aec6d6049ef00013b8085/0/662aec6d6049ef00013b8086.tif",
+      "geojson": {
+        "bbox": [
+          -13.277546,
+          8.481251,
+          -13.271621,
+          8.489519
+        ],
+        "coordinates": [
+          [
+            [
+              [
+                -13.277509,
+                8.489519
+              ],
+              [
+                -13.277546,
+                8.481277
+              ],
+              [
+                -13.271658,
+                8.481251
+              ],
+              [
+                -13.271621,
+                8.489492
+              ],
+              [
+                -13.277509,
+                8.489519
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "footprint": "POLYGON ((-13.277546 8.481251, -13.271621 8.481251, -13.271621 8.489519, -13.277546 8.489519, -13.277546 8.481251))",
+      "gsd": 0.04999938743494882,
+      "file_size": 44981126,
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Engineering survey, topographic mapping.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/662aec6d6049ef00013b8085/0/662aec6d6049ef00013b8086_meta.json",
+      "uploaded_at": "2024-04-25T23:59:04.160Z",
+      "bbox": [
+        -13.277546,
+        8.481251,
+        -13.271621,
+        8.489519
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "686e3c2d15a6768f282b27d1",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686e390615a6768f282b22b3/0/686e390615a6768f282b22b4.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686e390615a6768f282b22b3/0/686e390615a6768f282b22b4_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Cockle_Bay_Disability_Analysis",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.278159,
+        8.478971,
+        -13.265768,
+        8.496343
+      ],
+      "footprint": "POLYGON ((-13.278159 8.478971, -13.265768 8.478971, -13.265768 8.496343, -13.278159 8.496343, -13.278159 8.478971))",
+      "gsd": 0.04999968623184757,
+      "file_size": 193712789,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.278082,
+                8.496343
+              ],
+              [
+                -13.278159,
+                8.479026
+              ],
+              [
+                -13.265846,
+                8.478971
+              ],
+              [
+                -13.265768,
+                8.496289
+              ],
+              [
+                -13.278082,
+                8.496343
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.278159,
+          8.478971,
+          -13.265768,
+          8.496343
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/686e390615a6768f282b22b3/0/686e390615a6768f282b22b4.tif",
+        "filename": "686e390615a6768f282b22b4.tif",
+        "dimensions": [
+          27118,
+          38308
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.04999888989967262,
+          0.04999968623184757
+        ],
+        "resolution_in_meters": 0.04999968623184757,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/686e390615a6768f282b22b3/0/686e390615a6768f282b22b4.png",
+        "tms": "https://tiles.openaerialmap.org/686e390615a6768f282b22b3/0/686e390615a6768f282b22b4/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/686e390615a6768f282b22b3/0/686e390615a6768f282b22b4/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F686e390615a6768f282b22b3%2F0%2F686e390615a6768f282b22b4.tif",
+        "file_size": 193712789
+      },
+      "uploaded_at": "2025-07-09T09:53:49.120Z",
+      "__v": 0
+    },
+    {
+      "_id": "687087be0fe4aae11f39f7d8",
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6870848e0fe4aae11f39f5a9/0/6870848e0fe4aae11f39f5aa.tif",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6870848e0fe4aae11f39f5a9/0/6870848e0fe4aae11f39f5aa_meta.json",
+      "user": {
+        "_id": "5eb37b4700afed00060e6dfe",
+        "name": "Ivan Gayton"
+      },
+      "title": "Allentown_Logri_Batch_1_temp",
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Navigation and medium accuracy spatial referencing.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "bbox": [
+        -13.170348,
+        8.428406,
+        -13.154366,
+        8.443395
+      ],
+      "footprint": "POLYGON ((-13.170348 8.428406, -13.154366 8.428406, -13.154366 8.443395, -13.170348 8.443395, -13.170348 8.428406))",
+      "gsd": 0.04999984674028162,
+      "file_size": 234483499,
+      "acquisition_start": "2025-04-16T07:00:00.000Z",
+      "acquisition_end": "2025-04-16T08:00:00.000Z",
+      "platform": "uav",
+      "provider": "HOT",
+      "contact": "Ivan Gayton,ivan.gayton@hotosm.org",
+      "geojson": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -13.170278,
+                8.443395
+              ],
+              [
+                -13.170348,
+                8.42848
+              ],
+              [
+                -13.154437,
+                8.428406
+              ],
+              [
+                -13.154366,
+                8.443321
+              ],
+              [
+                -13.170278,
+                8.443395
+              ]
+            ]
+          ]
+        ],
+        "bbox": [
+          -13.170348,
+          8.428406,
+          -13.154366,
+          8.443395
+        ]
+      },
+      "properties": {
+        "license": "CC BY-SA 4.0",
+        "sensor": "DJI Mini 4 Pro with DroneTM",
+        "url": "s3://oin-hotosm-temp/6870848e0fe4aae11f39f5a9/0/6870848e0fe4aae11f39f5aa.tif",
+        "filename": "6870848e0fe4aae11f39f5aa.tif",
+        "dimensions": [
+          35049,
+          32996
+        ],
+        "bands": 3,
+        "dtype": "uint8",
+        "crs": "EPSG:32628",
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "resolution": [
+          0.049998634183081606,
+          0.04999984674028162
+        ],
+        "resolution_in_meters": 0.04999984674028162,
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/6870848e0fe4aae11f39f5a9/0/6870848e0fe4aae11f39f5aa.png",
+        "tms": "https://tiles.openaerialmap.org/6870848e0fe4aae11f39f5a9/0/6870848e0fe4aae11f39f5aa/{z}/{x}/{y}",
+        "wmts": "https://tiles.openaerialmap.org/6870848e0fe4aae11f39f5a9/0/6870848e0fe4aae11f39f5aa/wmts",
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm-temp.s3.us-east-1.amazonaws.com%2F6870848e0fe4aae11f39f5a9%2F0%2F6870848e0fe4aae11f39f5aa.tif",
+        "file_size": 234483499
+      },
+      "uploaded_at": "2025-07-11T03:40:46.031Z",
+      "__v": 0
+    },
+    {
+      "_id": "663c78866049ef00013b8497",
+      "acquisition_end": "2024-05-09T07:05:36.127Z",
+      "acquisition_start": "2024-05-09T07:00:00.000Z",
+      "contact": "Ivan Gayton,ivangayton@gmail.com",
+      "platform": "uav",
+      "provider": "OSM Sierra Leone",
+      "properties": {
+        "tilejson": "https://tiles.openaerialmap.org/cog/tilejson.json?url=https%3A%2F%2Foin-hotosm.s3.us-east-1.amazonaws.com%2F663c76196049ef00013b8494%2F0%2F663c76196049ef00013b8495.tif",
+        "wmts": "https://tiles.openaerialmap.org/663c76196049ef00013b8494/0/663c76196049ef00013b8495/wmts",
+        "tms": "https://tiles.openaerialmap.org/663c76196049ef00013b8494/0/663c76196049ef00013b8495/{z}/{x}/{y}",
+        "thumbnail": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/663c76196049ef00013b8494/0/663c76196049ef00013b8495.png",
+        "resolution_in_meters": 0.049999998491709816,
+        "resolution": [
+          0.04999689002901769,
+          0.049999998491709816
+        ],
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "crs": "EPSG:32628",
+        "dtype": "uint8",
+        "bands": 3,
+        "dimensions": [
+          9556,
+          9789
+        ],
+        "filename": "663c76196049ef00013b8495.tif",
+        "url": "s3://oin-hotosm/663c76196049ef00013b8494/0/663c76196049ef00013b8495.tif",
+        "sensor": "Mavic 2 zoom",
+        "license": "CC-BY 4.0"
+      },
+      "title": "Kroo_Bay_Freetown_Sierra_Leone",
+      "user": {
+        "_id": "6268de8f59de8f00070b32aa",
+        "name": "Ivan Gayton"
+      },
+      "uuid": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/663c76196049ef00013b8494/0/663c76196049ef00013b8495.tif",
+      "geojson": {
+        "bbox": [
+          -13.242817,
+          8.485742,
+          -13.238458,
+          8.490187
+        ],
+        "coordinates": [
+          [
+            [
+              [
+                -13.242796,
+                8.490187
+              ],
+              [
+                -13.242817,
+                8.485762
+              ],
+              [
+                -13.238478,
+                8.485742
+              ],
+              [
+                -13.238458,
+                8.490167
+              ],
+              [
+                -13.242796,
+                8.490187
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "footprint": "POLYGON ((-13.242817 8.485742, -13.238458 8.485742, -13.238458 8.490187, -13.242817 8.490187, -13.242817 8.485742))",
+      "gsd": 0.049999998491709816,
+      "file_size": 18806703,
+      "projection": "\nPROJCRS[\"WGS 84 / UTM zone 28N\",\n    BASEGEOGCRS[\"WGS 84\",\n        ENSEMBLE[\"World Geodetic System 1984 ensemble\",\n            MEMBER[\"World Geodetic System 1984 (Transit)\"],\n            MEMBER[\"World Geodetic System 1984 (G730)\"],\n            MEMBER[\"World Geodetic System 1984 (G873)\"],\n            MEMBER[\"World Geodetic System 1984 (G1150)\"],\n            MEMBER[\"World Geodetic System 1984 (G1674)\"],\n            MEMBER[\"World Geodetic System 1984 (G1762)\"],\n            MEMBER[\"World Geodetic System 1984 (G2139)\"],\n            ELLIPSOID[\"WGS 84\",6378137,298.257223563,\n                LENGTHUNIT[\"metre\",1]],\n            ENSEMBLEACCURACY[2.0]],\n        PRIMEM[\"Greenwich\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433]],\n        ID[\"EPSG\",4326]],\n    CONVERSION[\"UTM zone 28N\",\n        METHOD[\"Transverse Mercator\",\n            ID[\"EPSG\",9807]],\n        PARAMETER[\"Latitude of natural origin\",0,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8801]],\n        PARAMETER[\"Longitude of natural origin\",-15,\n            ANGLEUNIT[\"degree\",0.0174532925199433],\n            ID[\"EPSG\",8802]],\n        PARAMETER[\"Scale factor at natural origin\",0.9996,\n            SCALEUNIT[\"unity\",1],\n            ID[\"EPSG\",8805]],\n        PARAMETER[\"False easting\",500000,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8806]],\n        PARAMETER[\"False northing\",0,\n            LENGTHUNIT[\"metre\",1],\n            ID[\"EPSG\",8807]]],\n    CS[Cartesian,2],\n        AXIS[\"(E)\",east,\n            ORDER[1],\n            LENGTHUNIT[\"metre\",1]],\n        AXIS[\"(N)\",north,\n            ORDER[2],\n            LENGTHUNIT[\"metre\",1]],\n    USAGE[\n        SCOPE[\"Engineering survey, topographic mapping.\"],\n        AREA[\"Between 18°W and 12°W, northern hemisphere between equator and 84°N, onshore and offshore. Gambia. Greenland. Guinea. Guinea-Bissau. Iceland. Ireland - offshore Porcupine Basin. Mauritania. Morocco. Senegal. Sierra Leone. Western Sahara.\"],\n        BBOX[0,-18,84,-12]],\n    ID[\"EPSG\",32628]]",
+      "meta_uri": "https://oin-hotosm-temp.s3.us-east-1.amazonaws.com/663c76196049ef00013b8494/0/663c76196049ef00013b8495_meta.json",
+      "uploaded_at": "2024-05-09T07:17:26.074Z",
+      "bbox": [
+        -13.242817,
+        8.485742,
+        -13.238458,
+        8.490187
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "5ebea0de59a4e6000624f2af",
+      "acquisition_end": "2020-02-03T11:00:00.000Z",
+      "acquisition_start": "2020-02-03T10:00:00.000Z",
+      "contact": "Cristiano Giovando,cristiano.giovando@hotosm.org",
+      "platform": "satellite",
+      "provider": "Maxar",
+      "properties": {
+        "wmts": "https://tiles.openaerialmap.org/5ebe978559a4e6000624f2ad/0/5ebe978559a4e6000624f2ae/wmts",
+        "tms": "https://tiles.openaerialmap.org/5ebe978559a4e6000624f2ad/0/5ebe978559a4e6000624f2ae/{z}/{x}/{y}",
+        "thumbnail": "https://oin-hotosm-temp.s3.amazonaws.com/5ebe978559a4e6000624f2ad/0/5ebe978559a4e6000624f2ae.png",
+        "resolution": [
+          0.30000000000000016,
+          0.30000000000000016
+        ],
+        "colorinterp": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "dtype": "uint8",
+        "filename": "5ebe978559a4e6000624f2ae.tif",
+        "resolution_in_meters": 0.3,
+        "bands": 3,
+        "url": "s3://oin-hotosm/5ebe978559a4e6000624f2ad/0/5ebe978559a4e6000624f2ae.tif",
+        "dimensions": [
+          114688,
+          81920
+        ],
+        "crs": "EPSG:32628",
+        "sensor": "Maxar Satellite Sensors",
+        "license": "CC BY-NC 4.0"
+      },
+      "title": "Maxar 2020 Freetown Mosaic",
+      "user": {
+        "_id": "5a0d77ff31eff4000c3805da",
+        "name": "Cristiano Giovando"
+      },
+      "uuid": "https://oin-hotosm-temp.s3.amazonaws.com/5ebe978559a4e6000624f2ad/0/5ebe978559a4e6000624f2ae.tif",
+      "geojson": {
+        "bbox": [
+          -13.303636,
+          8.2838,
+          -12.990218,
+          8.507451
+        ],
+        "coordinates": [
+          [
+            [
+              [
+                -13.302671,
+                8.507451
+              ],
+              [
+                -13.303636,
+                8.28525
+              ],
+              [
+                -12.99136,
+                8.2838
+              ],
+              [
+                -12.990218,
+                8.505962
+              ],
+              [
+                -13.302671,
+                8.507451
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "footprint": "POLYGON ((-13.303636 8.2838, -12.990218 8.2838, -12.990218 8.507451, -13.303636 8.507451, -13.303636 8.2838))",
+      "gsd": 0.3,
+      "file_size": 792473768,
+      "projection": "PROJCS[\"WGS 84 / UTM zone 28N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-15],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32628\"]]",
+      "meta_uri": "https://oin-hotosm-temp.s3.amazonaws.com/5ebe978559a4e6000624f2ad/0/5ebe978559a4e6000624f2ae_meta.json",
+      "uploaded_at": "2020-05-15T14:02:06.635Z",
+      "bbox": [
+        -13.303636,
+        8.2838,
+        -12.990218,
+        8.507451
+      ],
+      "__v": 0
+    }
+  ]
+}
