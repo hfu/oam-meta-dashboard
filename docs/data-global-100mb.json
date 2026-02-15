@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "provided_by": "OpenAerialMap",
+    "license": "CC-BY 4.0",
+    "website": "http://beta.openaerialmap.org",
+    "page": 1,
+    "limit": 100,
+    "found": 19962,
+    "note": "Filtered to items with file_size >= 1GB"
+  },
+  "results": [
+    {
+      "_id": "59e62b883d6412ef72209c77",
+      "uuid": "https://oin-hotosm-temp.s3.amazonaws.com/57f9d94984ae75bb00ec74ed/0/57f9dac2b0eae7f3b143a8b0.tif",
+      "__v": 0,
+      "title": "DG 1030010045D71900 (Hurricane Matthew)",
+      "projection": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "bbox": [
+        -74.0130021449,
+        18.013687395399998,
+        -73.8248134068,
+        18.6098377337
+      ],
+      "footprint": "POLYGON((-74.0130021449 18.6098377337,-73.8248134068 18.6098377337,-73.8248134068 18.013687395399998,-74.0130021449 18.013687395399998,-74.0130021449 18.6098377337))",
+      "gsd": 0.0000044878553507383034,
+      "file_size": 1087416023,
+      "acquisition_start": "2015-07-03T07:00:00.000Z",
+      "acquisition_end": "2015-07-03T07:00:00.000Z",
+      "platform": "satellite",
+      "provider": "DigitalGlobe",
+      "contact": "HOT,info@openaerialmap.org",
+      "properties": {
+        "wmts": "http://tiles.openaerialmap.org/57f9d94984ae75bb00ec74ed/0/57f9dac2b0eae7f3b143a8b0/wmts",
+        "tms": "http://tiles.openaerialmap.org/57f9d94984ae75bb00ec74ed/0/57f9dac2b0eae7f3b143a8b0/{z}/{x}/{y}.png",
+        "thumbnail": "https://oin-hotosm-temp.s3.amazonaws.com/57f9d94984ae75bb00ec74ed/0/57f9dac2b0eae7f3b143a8b0_thumb.png",
+        "sensor": "WV02",
+        "file_size": 1087416023
+      },
+      "uploaded_at": "2016-10-09T00:00:00.000Z",
+      "meta_uri": "https://oin-hotosm-temp.s3.amazonaws.com/57f9d94984ae75bb00ec74ed/0/57f9dac2b0eae7f3b143a8b0_meta.json",
+      "geojson": {
+        "bbox": [
+          -74.0130021449,
+          18.013687395399998,
+          -73.8248134068,
+          18.6098377337
+        ],
+        "coordinates": [
+          [
+            [
+              -74.0130021449,
+              18.6098377337
+            ],
+            [
+              -73.8248134068,
+              18.6098377337
+            ],
+            [
+              -73.8248134068,
+              18.013687395399998
+            ],
+            [
+              -74.0130021449,
+              18.013687395399998
+            ],
+            [
+              -74.0130021449,
+              18.6098377337
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}

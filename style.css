@@ -180,6 +180,18 @@ body {
   background: #fff;
 }
 
+.regions {
+  display: grid;
+  gap: 6px;
+}
+
+.regions select {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
 .status {
   min-height: 32px;
   margin-bottom: 12px;

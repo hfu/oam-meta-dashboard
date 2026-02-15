@@ -11,9 +11,9 @@
       <header class="header">
         <div class="header-inner">
           <p class="eyebrow">OpenAerialMap</p>
-          <h1>Western Area Asset Dashboard</h1>
+          <h1>Aerial Imagery Asset Dashboard</h1>
           <p class="subtitle">
-            Quick view of aerial imagery metadata for Freetown + Waterloo.
+            Quick view of aerial imagery metadata by region.
           </p>
           <p class="subtitle-note">Snapshot loaded at build time.</p>
           <a
@@ -28,6 +28,13 @@
       </header>
 
       <section class="controls">
+        <div class="regions">
+          <label for="regionSelect">Dataset</label>
+          <select id="regionSelect" name="regionSelect">
+            <option value="sierra-leone">Sierra Leone</option>
+            <option value="global">Global (≥1GB)</option>
+          </select>
+        </div>
         <div class="stats">
           <div>
             <span class="stat-label">Assets</span>

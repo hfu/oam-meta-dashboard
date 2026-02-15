@@ -12,4 +12,4 @@ pnpm-debug.log*
 coverage/
 .cache/
 .tmp/
-tmp/
+tmp/public/data-*.json

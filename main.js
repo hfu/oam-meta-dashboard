@@ -1,6 +1,5 @@
-const DATA_URL = "./data.json";
-
 const elements = {
+  regionSelect: document.getElementById("regionSelect"),
   sortSelect: document.getElementById("sortSelect"),
   loading: document.getElementById("loading"),
   error: document.getElementById("error"),
@@ -12,7 +11,8 @@ const elements = {
 const state = {
   assets: [],
   isLoading: false,
-  requestId: 0
+  requestId: 0,
+  currentDataset: "sierra-leone"
 };
 
 const formatter = new Intl.DateTimeFormat("en-US", {
@@ -30,8 +30,16 @@ function isValidUrl(value) {
   }
 }
 
-async function fetchSnapshot() {
-  const response = await fetch(DATA_URL, { cache: "no-store" });
+function getDataUrl(dataset) {
+  if (dataset === "global") {
+    return "./data-global-1gb.json";
+  }
+  return "./data-sierra-leone.json";
+}
+
+async function fetchSnapshot(dataset) {
+  const url = getDataUrl(dataset);
+  const response = await fetch(url, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Snapshot not found: ${response.status}`);
   }
@@ -291,16 +299,17 @@ function setError(message) {
   elements.error.style.display = message ? "block" : "none";
 }
 
-async function loadAssets() {
+async function loadAssets(dataset) {
   const requestId = ++state.requestId;
 
   setError("");
   setLoading(true, "Loading snapshot...");
 
   try {
-    const data = await fetchSnapshot();
+    const data = await fetchSnapshot(dataset);
     const results = Array.isArray(data.results) ? data.results : [];
     state.assets = results.map(mapAsset);
+    state.currentDataset = dataset;
 
     renderAll();
 
@@ -317,9 +326,33 @@ async function loadAssets() {
 }
 
 function init() {
+  // Get initial dataset from URL search params
+  const params = new URLSearchParams(window.location.search);
+  const initialDataset = params.get("dataset") || "sierra-leone";
+  
+  // Set region select to initial value
+  elements.regionSelect.value = initialDataset;
+  state.currentDataset = initialDataset;
+
+  // Region change handler
+  elements.regionSelect.addEventListener("change", (e) => {
+    const dataset = e.target.value;
+    state.currentDataset = dataset;
+    
+    // Update URL without reloading
+    const url = new URL(window.location);
+    url.searchParams.set("dataset", dataset);
+    window.history.pushState({}, "", url);
+    
+    // Load new dataset
+    void loadAssets(dataset);
+  });
+
+  // Sort change handler
   elements.sortSelect.addEventListener("change", renderAll);
 
-  void loadAssets();
+  // Load initial data
+  void loadAssets(initialDataset);
 }
 
 init();
